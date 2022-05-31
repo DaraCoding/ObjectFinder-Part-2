@@ -1,0 +1,37 @@
+body
+{
+    background-image: linear-gradient(to bottom right, red, rgb(244, 191, 91));
+
+}
+
+.heading
+{
+font-size: 24px;
+width: 100%;
+margin-top: 0;
+}
+
+#start, #status, #number_of_objects, #text_area
+{
+font-size: 18px;
+border-radius: 25;
+}
+
+canvas{
+    background-color: black;
+    border-radius: 25px;
+    border: 2px solid purple;
+    box-shadow: 10px 10px 10px grey;
+    margin-top: 30px;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    background-color: grey;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+}
